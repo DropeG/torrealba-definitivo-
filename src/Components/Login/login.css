@@ -1,0 +1,92 @@
+.login-form{
+    width: 80%;
+    background: #146C94;
+    margin: 55px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.content{
+    padding: 25px 35px 40px;
+    text-align: center;
+}
+
+.input-field{
+    padding: 12px 5px;
+    
+
+}
+
+input{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    border-bottom: 1px solid white;
+    background: #146C94;
+    outline: none;
+    color: #eeee;
+
+}
+
+a.link{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+}
+
+.button-field{
+    margin-top: 30px;
+}
+
+.back-field{
+    background-color: #146C94;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    
+}
+
+.fa-solid{
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+.back-text{
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.name_container{
+    padding-top: 0;
+}
+
+.login_name{
+    font-size:70px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    color: #146C94;
+}
+
+.back{
+    color: white
+}

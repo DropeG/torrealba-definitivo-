@@ -1,0 +1,119 @@
+/*Seccion Conviertete en Conductor */
+
+.conviertete-conductor{
+    background-color: #19A7CE;
+    width: 75%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 7% auto 5%;
+    height: 16%;
+    display: flex;
+}
+
+.texto-conviertete{
+    background-color: #19A7CE;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    
+   
+}
+
+.titulo-conviertete{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 10px;
+    color: #eeee;
+}
+
+.parrafo-conviertete{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 15px;
+    color: #eeee;
+    
+}
+
+/* Input de busqueda */
+
+.servicios{
+    background-color: #f6f1f1;
+    width: 75%;
+    margin: 6% auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-buscador{
+    background-color: #F6F1F1;
+    margin: 11% 10px;
+    width: 70%;
+    height: 40px;
+    color: black;
+}
+
+.fa-magnifying-glass{
+    color: #19A7CE;
+    margin-left: 10px;
+}
+
+.filter-icon{
+    padding-right: 5%;
+    color: #19A7CE;
+    font-size: 30px;
+}
+
+/* Aeropuerto */
+
+.aeropuerto{
+    background-color: #F6F1F1;
+    width: 35%;
+    text-align: center;
+    margin-left: 13%;
+    height: 140px;
+    border-radius: 10px;
+    align-items: center;
+   
+}
+
+.icon-div{
+    background-color: #F6F1F1;
+    width: 100%;
+    text-align: center;
+    height: 80%;
+    border-radius: 10px;
+    align-items: center;
+    border: solid #19A7CE;
+
+}
+.icon-services{
+    font-size: 70px;
+    margin-top: 10%;
+    
+}
+
+.letra-servicios{
+    font-size: 15px;
+    margin-left: 13%;
+    margin-top: 5px;
+}
+
+.arrow{
+    margin-left: 3%;
+    font-size: 40px;
+}
+
+.vertical-line{
+    border-left: 4px solid #19A7CE;
+    height: 80%;
+    margin-left: 7%;
+    border-radius: 10px;
+    
+}
+
+.servicios-arriba{
+    display: flex;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    font-size:15x;
+    font-family: 'Poppins', sans-serif;
+    width: 167px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #eeee;
+  }
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    background-color: #146C94;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_item{
+    margin: 0 8px;
+}
+
+.nav_link{
+    padding: 10px;
+    color: #eeee;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.nav_link:hover {
+    background-color: #00adb5;
+}
+
+.header_toggle,
+.header_close{
+    display: none;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    header{
+        height: 17%;
+        justify-content: space-between ;
+        padding: 0 28px;
+    }
+
+    .header_toggle{
+        display: inline;
+        color: #eeee;
+        font-size: 24px;
+    }
+    .header_close{
+        position: absolute;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .log-in{
+        color: #eeee;
+        padding-left: 80px;
+        background-color: grey;
+        
+    }
+
+    .log-in:hover{
+        background-color: #00adb5;
+    }
+
+    .header_close:hover {
+        background-color: #00adb5;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: #146C94;
+        color: #eeee;
+        width: 60%;
+        height: 100vh;
+        padding: 40px 0;
+        z-index: 100;
+        transition: 0.5s;
+        border-radius: 50% 0 0 50%;
+    }
+
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .nav_item{
+        margin: 2rem 0;
+    }
+
+    .show{
+        right: 0;
+    }
+}
